@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>468</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Переходное меню</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(75, 75, 75);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255,255,255)</string>
+    </property>
+    <property name="text">
+     <string>Выберети на какую страницу перейти</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="arenda">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(158, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Аренда</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rSob">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>60</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(158, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Рейтинг собственников</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nakladnaya">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(148, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Накладная</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rEks">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>130</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(148, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Рейтинг экспедиторов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="avtorizasia">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(88, 0, 0);
+background-color: rgb(226, 198, 161);
+border-radius: 25px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Авторизация</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="kartaMarshruta">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>410</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(88, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Карты маршрута</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="poiskVagonov">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(128, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Инфо. о вагонах</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="infoOStansii">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>270</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(128, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Инфо. о станции</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dobVag">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(138, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Добавление вагонов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dobOrg">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(138, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Добавление организаций</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OperationNaStansii">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(108, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Операция на станции</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="predlojenia">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>340</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(108, 0, 0);
+border-radius: 10px;   
+border: 1px solid #094065;
+border-color: rgb(0,0,0)</string>
+    </property>
+    <property name="text">
+     <string>Предложения</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>468</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1746</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Поиск вагонов</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(75, 75, 75);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>1691</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255,255,255)
+</string>
+    </property>
+    <property name="rowCount">
+     <number>2</number>
+    </property>
+    <property name="columnCount">
+     <number>12</number>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>140</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>49</number>
+    </attribute>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>№ вагона</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Тип вагона</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Собст-к</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Состояние вагона</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Арендатор</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Дата нач аренды</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Дата конца аренды</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ст тек опер</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Дата тек опер</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Тек опер</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Груз</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Вес, т</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>741</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255,255,255)</string>
+    </property>
+    <property name="text">
+     <string>Введите номер вагона, по которому необходима информация</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1746</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
