@@ -1,0 +1,11 @@
+{
+    "number_vagona":"1",
+    "type_vagona":"\u041f\u0412",
+    "date_start_arenda":"1.1.2000 0:0",
+    "date_end_arenda":"1.1.3000 0:0",
+    "stoimost":100000,
+    "arendator":"21",
+    "nonce":20415,
+    "hash":"00008547a1656bc80e1bd20649d3ee60f5d215aa90dae537f0e9580bad3d45b4fdc94629ed142e6b35ca603f66a13d45",
+    "sign":"46574ef1c54325d62e089e8ab5d766f6d4035f787f159e04960c09e8aecca513a16221c215929c4e3d9ae71babbc820820d25abfe675dc2e650fee216af0a5d8"
+}
